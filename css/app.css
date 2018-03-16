@@ -14,6 +14,9 @@ body {
     margin: 0;
     height: 100%;
 }
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
 
 .container {
     margin: auto;
@@ -43,6 +46,7 @@ body {
 h2 {
     margin: 0;
     transform: rotate(-45deg);
+    transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
 }
 
